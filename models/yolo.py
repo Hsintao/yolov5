@@ -222,6 +222,7 @@ if __name__ == '__main__':
 
     # Create model
     model = Model(opt.cfg).to(device)
+    print(model.save)
     model.eval()
     # print(model)
 
